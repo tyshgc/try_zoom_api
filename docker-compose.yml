@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  db:
+    image: postgres:13-alpine
+    container_name: study_zoom_api
+    ports:
+      - "$DB_PORT"
+    environment:
+      - POSTGRES_USER=$DB_USER
+      - POSTGRES_PASSWORD=$DB_PASSWORD
+      - PGPASSWORD=$DB_PASSWORD
+      - POSTGRES_DB=$_NAME
+      - DATABASE_HOST=$DB_HOST
+    volumes:
+      - $PWD/docker/db/init:/docker-entrypoint-initdb.d
