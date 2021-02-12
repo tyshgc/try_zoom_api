@@ -9,7 +9,7 @@ services:
       - POSTGRES_USER=$DB_USER
       - POSTGRES_PASSWORD=$DB_PASSWORD
       - PGPASSWORD=$DB_PASSWORD
-      - POSTGRES_DB=$_NAME
+      - POSTGRES_DB=$DB_NAME
       - DATABASE_HOST=$DB_HOST
     volumes:
       - $PWD/docker/db/init:/docker-entrypoint-initdb.d
