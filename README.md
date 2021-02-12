@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 # try_zoom_api
+
 =======
 [![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)
 
 This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
-
-# **name**
 
 ## Getting Started
 
@@ -35,7 +33,7 @@ DATABASE_URL=postgresql://<YOUR_DB_USERNAME>@localhost:5432/try_zoom_api_test
 
 Runs your tests using Jest.
 
-```
+```shell
 blitz test
 or
 yarn test
@@ -47,7 +45,7 @@ Blitz comes with a test setup using [Jest](https://jestjs.io/) and [react-testin
 
 Blitz comes with a powerful CLI that is designed to make development easy and fast. You can install it with `npm i -g blitz`
 
-```
+```shell
   blitz [COMMAND]
 
   build     Create a production build
@@ -65,7 +63,7 @@ You can read more about it on the [CLI Overview](https://blitzjs.com/docs/cli-ov
 
 Here is the structure of your app.
 
-```
+```text
 try_zoom_api
 ├── app
 │   |── auth
@@ -171,4 +169,5 @@ The Blitz community is warm, safe, diverse, inclusive, and fun! Feel free to rea
 - [Forum discussions](https://github.com/blitz-js/blitz/discussions)
 - [Sponsors and donations](https://github.com/blitz-js/blitz#sponsors-and-donations)
 - [Contributing Guide](https://blitzjs.com/docs/contributing)
->>>>>>> New baby Blitz app!
+
+> > > > > > > New baby Blitz app!
