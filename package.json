@@ -33,6 +33,7 @@
   "dependencies": {
     "@prisma/cli": "~2.14",
     "@prisma/client": "~2.14",
+    "@zoomus/websdk": "1.9.0",
     "blitz": "0.29.7",
     "final-form": "4.20.1",
     "react": "0.0.0-experimental-3310209d0",
